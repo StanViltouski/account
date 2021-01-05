@@ -694,6 +694,8 @@ input[type=text]::placeholder {
     .price-current {
         font-size: 16px;
     }
+       #top-form .verif__system_recom .verif__system__block .height_1 {height: 40px;}
+    #top-form .verif__system_recom .verif__system__block .height_2 {height: 30px;}
 }
 
 .verif__system__block {
@@ -946,7 +948,7 @@ input[type=text]::placeholder {
 .range_block {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 290px;
 }
 
 .range_block input {
@@ -987,6 +989,8 @@ input[type=text]::placeholder {
     height: 38px;
     border-radius: 5px;
     background-color: #f3f6fc;
+    padding: 0 10px;
+    margin-left: 13px;
 }
 
 .range_block .percent_uniq_output span {
@@ -1006,8 +1010,9 @@ input[type=text]::placeholder {
     font-size: 10px;
     line-height: 1.3;
     color: #626262;
-    padding: 0px 5px 10px 30px;
+    padding: 0px 5px 10px 28px;
 }
+
 
 /*Check*/
 #check-form .verif__system {
@@ -1113,11 +1118,6 @@ input[type=text]::placeholder {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-#top-form .verif__system_recom .verif__system__block, #rewrite .verif__system_recom .verif__system__block {
-    float: left;
-    display: inline;
 }
 
 #top-form .verif__system_recom .verif__block__legend {
@@ -1407,7 +1407,7 @@ input[type=text]::placeholder {
 .modal_order .modal_footer .total_price .flag_pay {
     position: absolute;
     top: -8px;
-    left: -8px;
+    left: 20px;
     padding-right: 10px;
     padding-left: 5px;
     font-size: 11px;
@@ -1547,6 +1547,8 @@ input[type=text]::placeholder {
 .modal_order #rewrite-form .verif__system_recom .verif__system_recom-wrapper .verif__system__label, .modal_order #rewrite-form .verif__system_recom .verif__system_recom-wrapper .verif__system__block {
     width: 320px;
     height: 75px;
+    float: left;
+    display: inline;
 }
 
 .modal_order #top-form .verif__system__block {
@@ -2011,8 +2013,8 @@ input[type=text]::placeholder {
         font-size: 14px;
         font-weight: bold;
         text-transform: uppercase;
-        letter-spacing: 0.28px;
         color: #000;
+        padding-top: 2px;
     }
 
     .tabsBlock_drop-mobile {
@@ -2038,13 +2040,14 @@ input[type=text]::placeholder {
         margin-bottom: 20px;
         padding-top: 8px;
         border-radius: 4px;
-        background: #f3f6fc;
+        /*background: #f3f6fc;*/
     }
 
     #cleaning-form .verif__system__label {
         align-self: center;
         margin-bottom: 10px;
         height: 16px;
+        background: #f3f6fc;
     }
 
     #cleaning-form .verif__system__label:nth-child(1n + 2) {
@@ -2106,7 +2109,7 @@ input[type=text]::placeholder {
 
     .checking-form.tabs_form .verif_checkbox__block .verif__sistem__name {
         align-self: center;
-        font-size: 11px;
+        font-size: 10px;
         line-height: 1.08;
     }
 
@@ -2134,7 +2137,9 @@ input[type=text]::placeholder {
     }
 
     #rewrite-form .verif__system_uniq {
-        margin-bottom: 22px;
+        margin-bottom: 15px;
+        width: 290px;
+        padding-left: 5px;
     }
 
     #rewrite-form .verif__system_uniq .verif__block__legend {
@@ -2143,6 +2148,7 @@ input[type=text]::placeholder {
 
     #rewrite-form .verif__system_recom .verif__block__legend {
         margin-bottom: 18px;
+        padding-left: 5px;
     }
 
     #rewrite-form .verif__system_recom .verif__system__label {
@@ -2164,8 +2170,9 @@ input[type=text]::placeholder {
     }
 
     .range_block .percent_uniq_output {
-        width: 41px;
+        width: 55px;
         height: 28px;
+        margin-left:-13px;
     }
 
     .range_block .percent_uniq_output span {
@@ -2218,7 +2225,8 @@ input[type=text]::placeholder {
 
     #check-form .verif__block__legend {
         font-size: 14px;
-        text-align: center;
+        text-align: left;
+        padding-left: 5px;
     }
 
     #check-form .text-info-mob-2 {
@@ -2240,7 +2248,7 @@ input[type=text]::placeholder {
 
     #check-form .verif__system__block .verif__sistem__name {
         align-self: flex-start;
-        margin-top: -2px;
+        margin-top: 0px;
         margin-bottom: 0;
         font-size: 12px;
         font-weight: 500;
@@ -2292,11 +2300,13 @@ input[type=text]::placeholder {
     }
 
     #top-form .verif__system.verif__system_uniq {
-        margin-bottom: 24px;
+        margin-bottom: 15px;
+        padding-left: 5px;
     }
 
     #top-form .verif__system.verif__system_uniq .verif__block__legend {
         margin-bottom: 3px;
+        width: 290px;
     }
 
     #top-form .verif__system_handler {
@@ -2306,6 +2316,7 @@ input[type=text]::placeholder {
     #top-form .verif__system_handler .verif__block__legend {
         margin-bottom: 9px;
         line-height: 1.33;
+        padding-left: 5px;
     }
 
     #top-form .verif__block__legend a {
@@ -2353,6 +2364,7 @@ input[type=text]::placeholder {
 
     #top-form .verif__system_recom .verif__block__legend {
         margin-bottom: 18px;
+        padding-left: 5px;
     }
 
     #top-form .verif__system_recom .verif__system__label {
@@ -2382,12 +2394,12 @@ input[type=text]::placeholder {
 
     /*=== Modal Account ===*/
     .modal {
-        top: 173px;
+        top: 40px;
         padding: 10px 10px 15px;
     }
 
     .modal .modal_head {
-        padding: 0 10px 0;
+        padding: 0  0;
     }
 
     .modal .modal_body {
@@ -2434,16 +2446,17 @@ input[type=text]::placeholder {
     }
 
     .modal input[type=range] {
-        width: 240px;
+        width: 230px;
     }
 
     .modal button {
-        margin-bottom: 10px;
-        width: 100%;
+        margin-bottom:0px;
+        /* width: 100%; */
     }
 
     .modal button span {
-        font-size: 14px;
+        font-size: 20px;
+        padding-top: 2px;
     }
 
     /*=== Modal Multi Order ===*/
@@ -2497,6 +2510,7 @@ input[type=text]::placeholder {
     .modal_order .modal_footer .total_price {
         display: block;
         margin-bottom: 15px;
+        text-align: center;
     }
 
     .modal_order .modal_footer .total_price .title {
@@ -2510,20 +2524,29 @@ input[type=text]::placeholder {
     }
 
     .modal_order .modal_footer .form_confirm {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
+        padding-left: 5px;
+        padding-top: 10px;
     }
 
     .modal_order .modal_footer .form_confirm .rules {
         margin-bottom: 5px;
         font-size: 10px;
+        line-height: 1.1;
+        padding-left: 0px;
+        width: 200px;
     }
 
     .modal_order .modal_footer .form_confirm .mark {
         font-size: 12px;
+        line-height: 1.5;
+        padding-top: 10px;
     }
 
     .modal_order .modal_footer .form_buttons {
         display: block;
+        width: 235px;
+        margin: 0 auto;
     }
 
     .modal_order .modal_footer .form_buttons a {
@@ -2569,8 +2592,9 @@ input[type=text]::placeholder {
 
     .modal_order #rewrite-form .verif__system_recom .verif__system_recom-wrapper .verif__system__label, .modal_order #rewrite-form .verif__system_recom .verif__system_recom-wrapper .verif__system__block {
         margin-bottom: 10px;
-        width: 100%;
+        width: 290px;
         height: 85px;
+        padding-left: 5px;
     }
 
     .modal_order #rewrite-form .verif__system_recom .verif__system_recom-wrapper .verif__system__label:last-child, .modal_order #rewrite-form .verif__system_recom .verif__system_recom-wrapper .verif__system__block:last-child {
@@ -2579,17 +2603,19 @@ input[type=text]::placeholder {
 
     .modal_order #top-form .verif__system_recom .verif__system__label {
         height: auto;
+        width: 290px;
+        padding-left: 5px;
     }
 
     .modal_order #top-form .verif__system__block {
-        width: 211px;
+        width: 290px;
         background-size: 80%;
         background-position: 25px 25px;
     }
 
     .modal_order #top-form .verif__system_recom .verif__system__block {
-        width: 100%;
-        min-height: 75px;
+        width: 290px;
+        min-height: 70px;
     }
 
     #check-form .other_verif {
@@ -2625,6 +2651,7 @@ input[type=text]::placeholder {
     letter-spacing: 0.3px;
     line-height: 12px;
     color: #000;
+    padding-top: 1px;
 }
 
 .button:before {
@@ -2938,7 +2965,7 @@ input[type=text]::placeholder {
     width: 255px;
     min-height: 100vh;
     background-color: #1073d8;
-    z-index: 998;
+    z-index: 990;
 }
 
 .sidebar_logo {
@@ -2984,6 +3011,7 @@ input[type=text]::placeholder {
 
 .sidebar_link.active .link_name h3 {
     color: #000;
+    padding-top: 5px;
 }
 
 .link_counter {
@@ -3015,6 +3043,7 @@ input[type=text]::placeholder {
 .link_name h3 {
     display: inline;
     line-height: normal;
+    padding-top: 5px;
 }
 
 /*Mobile button*/
@@ -3182,7 +3211,6 @@ input[type=text]::placeholder {
 
 .mainHead_finance .mainHeadFinance_block.add span {
     display: block;
-    margin-top: -2px;
     font-size: 26px;
     line-height: 35px;
     color: #1073d8;
@@ -3580,6 +3608,8 @@ input[type=text]::placeholder {
     width: 21px;
     height: 21px;
     background-image: url("/assets/account/check-full.svg");
+    padding-bottom: 3px;
+    background-repeat: no-repeat;
 }
 
 .table .action {
@@ -3641,6 +3671,7 @@ input[type=text]::placeholder {
     width: 155px;
     height: 12px;
     background: url("/assets/account/red-flag-thin.svg") no-repeat left center/cover;
+    padding-top: 1px;
 }
 
 .table .action .price-free {
@@ -3796,6 +3827,7 @@ input[type=text]::placeholder {
     margin-bottom: 13px;
     /*	margin-left: -43px;*/
 }
+.modal .modal_title br.br_mobile {display: none;}
 
 .table_check .originality .logos img {
     margin-top: -5px;
@@ -4125,6 +4157,7 @@ input[type=text]::placeholder {
 
 @media (max-width: 1439px) {
     /*=== Sidebar ===*/
+    .modal .modal_title br.br_mobile {display: none;}
     .sidebar_logo {
         padding: 20px 0 0;
     }
@@ -4905,10 +4938,12 @@ input[type=text]::placeholder {
     .mainContentFooter_nav a:last-child {
         margin-right: 0;
     }
+    
 }
 
 @media (max-width: 1023px) {
     /*=== Sidebar ===*/
+    .modal .modal_title br.br_mobile {display: none;}
     .sidebar {
         position: relative;
         display: flex;
@@ -5133,6 +5168,8 @@ input[type=text]::placeholder {
 
 @media (max-width: 767px) {
     /*=== Sidebar ===*/
+    .modal .modal_title br.br_mobile {display: block;}
+
     .sidebar {
         padding: 5px 14px 6px;
     }
@@ -5189,11 +5226,11 @@ input[type=text]::placeholder {
     }
 
     .mainContent_head .options .options_faq .tooltip {
-        top: -65px;
-        left: -170px;
+        top: -82px;
+        left: -171px;
         padding: 5px 6px;
         width: 200px;
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .mainContent_head .options .options_faq .tooltip:before {
@@ -5447,9 +5484,9 @@ input[type=text]::placeholder {
         top: 85px;
         left: auto;
         right: 0;
-        padding-left: 23px;
-        padding-right: 0;
-        width: 155px;
+        padding-left: 10px;
+        padding-right: 5px;
+        width: 165px;
         height: 12px;
         font-size: 8px;
         line-height: 12px;
@@ -5467,7 +5504,7 @@ input[type=text]::placeholder {
     .table_all .td:nth-child(6).done {
         align-self: center;
         justify-content: flex-start;
-        margin-top: 13px;
+        margin-top: 16px;
         margin-bottom: 0;
         width: 50%;
     }
@@ -6037,6 +6074,10 @@ input[type=text]::placeholder {
     .mainContentFooter_pages {
         margin: 0;
     }
+    .br_mobile {display: block;} 
+
+    #rewrite-form .verif__system_recom .verif__system__block .label-checkbox {
+    margin-right: 2px;}
 }
 
 /*# sourceMappingURL=styles.css.map */
